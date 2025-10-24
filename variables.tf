@@ -28,3 +28,10 @@ variable "instance_name" {
   description = "Tag name for EC2"
   type        = string
 }
+
+variable "user_data" {
+  description = "User data script to configure the instance"
+  type        = string
+  default     = ""
+  
+}
